@@ -22,14 +22,14 @@ URL = 'https://github.com/facebookresearch/denoiser'
 EMAIL = 'alexandre.defossez@gmail.com'
 AUTHOR = 'Alexandre Défossez'
 REQUIRES_PYTHON = '>=3.7.0'
-VERSION = "0.1.5"
+VERSION = "0.1.6"
 
 HERE = Path(__file__).parent
 
 REQUIRED = [
     'julius',
-    'hydra_core<1.0',
-    'hydra_colorlog<1.0',
+    'hydra_core<=1.1',
+    'hydra_colorlog',
     'numpy>=1.19',
     'pystoi>=0.3.3',
     'six',
