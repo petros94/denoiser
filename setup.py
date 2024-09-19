@@ -28,7 +28,7 @@ HERE = Path(__file__).parent
 
 REQUIRED = [
     'julius',
-    'hydra_core<=1.3',
+    'hydra_core<=1.4',
     'hydra_colorlog',
     'numpy>=1.19',
     'pystoi>=0.3.3',
